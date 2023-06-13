@@ -112,19 +112,3 @@ p{
     display: flex;
     flex-direction: column;
 }
-
-/* Adiciona um escurecimento ao fundo */
-dialog::backdrop{
-    background-color: rgb(0, 0,0 / .3);
-}
-
-/*Adiciona uma borda arredondada ao modal*/
-dialog {
-    border: none;
-    border-radius: 25px;
-}
-
-.container-input{
-    display: flex;
-    flex-direction: row;
-}
