@@ -1,23 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
-    <link  rel="stylesheet" href="estilo.css"/>
-</head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="/css/login.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="container-login"> <!-- Container principal-->
 
-<img src="img/Rectangle 1image login.png">
-    <form>
-        <h2>SIstema de Cadastro de Produtores de Teresópolis</h2>
-        <label for="text">Usuário</label>
-        <input type="text" name="Usuário" placeholder="Usuário">
-        <label for="password">Senha</label>
-        <input type="password" name="Senha" placeholder="Senha">
-        <button type="submit">ENTRAR</button>
-    </form>
+      <!-- container da imagem -->
+      <div class="img-container">
+          <img src="img/Login.png" alt="imagem de fundo">
+      </div>
 
-</body>
+      <!-- Container login -->
+      <div class="login-container">
+          <h1 class="titlelogin">Horticultura Orgânicos</h1>
+          <form>
+
+             <!--Containers dos inputs -->
+              <div class="input-container">
+                  <label for="text">Usuário</label>
+                  <input type="text" name="Usuário" placeholder="Usuário">
+              </div>
+
+              <div class="input-container">
+                  <label for="password">Senha</label>
+                  <input type="password" name="Senha" placeholder="Senha">
+              </div>
+
+              <div class="input-container">
+                  <button type="submit" class="bntlogin">ENTRAR</button>
+              </div>
+              
+              <p>Não tem uma conta? Cadastre-se</p>
+          </form>
+         
+  </div>
+
+<!-- MODAL -->
+
+  </body>
 </html>

@@ -1,53 +1,46 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtor</title>
-    <link  rel="stylesheet" href="estilo.css"/>
+    <title>Produtos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link  href="/css/produtor.css" rel="stylesheet" />
 </head>
 <body>
-    <nav>
+
+<div class="container-produtor">
+
+    <nav class="menu">
         <ul>
-        <li><a href="http://127.0.0.1:5500/produtor.html"><img src="img/Produtor.png"></img></a></li>
-        <li><a href="http://127.0.0.1:5500/produtos.html"><img src="img/Produtos.png"></img></a></li>
-        <li><a href="http://127.0.0.1:5500/categorias.html"><img src="img/Categorias.png"></img></a></li>
-        <li><a href="http://127.0.0.1:5500/usuario.html"><img src="img/Usuario.png"></img></a></li>
-        <li><a href="http://127.0.0.1:5500/index.html"><img src="img/Group 1.png"></img></a></li>
+            <li><a href="http://127.0.0.1:5500/inicio.html"><img src="img/Logo.png"></img></a></li>
+            <li><a href="http://127.0.0.1:5500/produtor.html"><img src="img/Produtor.png"></img></a></li>
+            <li><a href="http://127.0.0.1:5500/produtos.html"><img src="img/Produtos.png"></img></a></li>
+            <li><a href="http://127.0.0.1:5500/categorias.html"><img src="img/Categorias.png"></img></a></li>
+            <li><a href="http://127.0.0.1:5500/usuario.html"><img src="img/Usuario.png"></img></a></li>
+            <li><a href="http://127.0.0.1:5500/index.html"><img src="img/Sair.png"></img></a></li>
         </ul>
     </nav>
 
-<h1>Olá, Fulano</h1>
+    <div class="col">
+    <h1 class="title-tabela">Produtor</h1>
+    </div>
+   
+    <div class="col">
+    <button type="submit" class="bnt-tabela">+ Novo</button>
+    </div>
 
-<form>
-    <h2>Produtores</h2>
-    
-    <button type="submit">+Novo</button>
-    <table>
-        <tr>
-        <th>Código</th>
-        <th>Nome</th>
-        <th>Ações</th>
-        </tr>
-        <tr>
-          <td>123</td>
-          <td>Produtor1</td>
-          <td><img src="img/Vector.png"><img src="img/Vector (1).png"></td>
-        </tr>
-        <tr>
-          <td>456</td>
-          <td>Produtor2</td>
-          <td><img src="img/Vector.png"><img src="img/Vector (1).png"></td>
-        </tr>
+    <div class="col">
+    <table class="table table-bordered border-dark">
+      <thead>
+         <tr>
+             <th>Código</th>
+             <th>Nome</th>
+             <th>Ações</th>
+         </tr>
+      </thead>
     </table>
-</form>
-
-<nav>
-    <ul>
-        <li><a href="http://127.0.0.1:5500/inicio.html"><img src="img/prev.png"></a>
-        <li><a href="http://127.0.0.1:5500/produtos.html"><img src="img/Next.png"></a>
-    </ul>
-</nav>
+   </div>
+   
+</div>
 </body>
 </html>
